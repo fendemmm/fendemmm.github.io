@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap demo</title>
+
+<link rel="icon" type="image/x-icon" href="afg.png">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lilita+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg" style="background-color: #757572;" data-bs-theme="dark">
+<div class="container-fluid">
+<a class="navbar-brand lilita-one-regular" href="#">A.F.G</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+<div class="navbar-nav">
+<a class="nav-link active lilita-one-regular" aria-current="page" href="#">Home</a>
+<a class="nav-link lilita-one-regular" href="#about-us">About Us</a>
+<a class="nav-link lilita-one-regular" href="#product">Product</a>
+<a class="nav-link lilita-one-regular" href="#contact">Contact</a>
+<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Project
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./konversi-Suhu/index.html">Convert Suhu</a></li>
+            <li><a class="dropdown-item" href="./Bmi calc/index.html">Bmi Calculator</a></li>
+          </ul>
+</li>
+  
+</div>
+</div>
+</div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="adi r8.jpeg" class="d-block w-100" alt="ini adi">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="josefin-sans">Awwdi</h5>
+<p class="ubuntu-regular">R8 ini udah di discontinued yahh</p>
+</div>
+</div>
+<div class="carousel-item">
+<img src="messes.jpeg" class="d-block w-100" alt="ini mercy">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="josefin-sans">mesides</h5>
+<p class="ubuntu-regular">gatau cuma experiment</p>
+</div>
+</div>
+<div class="carousel-item">
+<img src="biemwi.jpeg" class="d-block w-100" alt="ini bmw">
+<div class="carousel-caption d-none d-md-block">
+<h5 class="josefin-sans">Biyemmwi</h5>
+<p class="ubuntu-regular">beemwe empor</p>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+
+<section id="about-us" class="py-4 bg-light">
+<div class="container">
+<!--
+<h2>abotuss</h2>
+<div class="row">
+<div class="col-1 border">col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+<div class="col-1 border">Col 1</div>
+</div>
+<div class="row align-items-center">
+<div class="col-4 border">Col 4</div>
+<div class="col-4 border">Col 4</div>
+<div class="col-4 border">Col 4</div>
+</div>
+<div class="row align-items-center">
+<div class="col-2 border">Col 2</div>
+<div class="col-8 border">Col 8</div>
+<div class="col-2 border">Col 2</div>
+</div>
+<div class="row align-items-center">
+<div class="col-6 border">Col 6</div>
+<div Class="col-6 border">Col 6</div>
+</div>
+-->
+
+<div class="row align-items-center">
+<div class="col-md-6 mb-4">
+<img src="karmit.jpeg" alts="car meet" class="img-fluid rounded shadow" style="max-width: 100%; height: auto; max-height: 250px;">
+</div>
+<div class="col-md-6">
+<h2 class="ubuntu-bold">About Us</h2>
+<p class="josefin-sans">Kami adalah komunitas pecinta mobil dari berbagai aliran: Jepang yang penuh kreativitas, Eropa dan Italia yang berkelas dan presisi, hingga Amerika yang bertenaga. Bersama, kami merayakan semangat otomotif dari lintas budaya dan generasi.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="product" class="py-4 bg-light">
+<div class="container">
+<h2 class="text-center mb-4 ubuntu-bold">Our Product</h2>
+<div class="row align-items-stretch">
+<div class="col-md-4 mb-4">
+<div class="card h-100 d-flex flex-column">
+<img src="kopet c7.jpeg" class="card-img-top product-img" alt="Corvette C7">
+<div class="card-body flex-grow-1">
+<h5 class="card-title lilita-one-regular">Corvette C7</h5>
+<p class="card-text ubuntu-regular">Chevrolet Corvette C7 adalah mobil sport Amerika buatan Chevrolet (2014–2019), punya desain agresif, mesin V8 bertenaga hingga 650 hp (Z06), dan terkenal karena performa tinggi dengan harga lebih terjangkau dibanding rival Eropa.</p>
+</div>
+<div class="card-footer text-center">
+<small class="text-muted">Harga bekas: Rp1,3M</small>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-4">
+<div class="card h-100 d-flex flex-column">
+<img src="Shelby GT350R.jpeg" class="card-img-top product-img" alt="Shelby GT350R">
+<div class="card-body flex-grow-1">
+<h5 class="card-title lilita-one-regular">Shelby GT350R</h5>
+<p class="card-text ubuntu-regular">Ford Mustang Shelby GT350R adalah muscle car track-ready dari Ford, pakai mesin V8 5.2L naturally aspirated dengan suara khas flat-plane crank dan tenaga 526 hp. Fokus ke performa, interior dibuat ringan tanpa kursi belakang.</p>
+</div>
+<div class="card-footer text-center">
+<small class="text-muted">Harga bekas: Rp1,1M</small>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-4">
+<div class="card h-100 d-flex flex-column">
+<img src="gt3eres.jpeg" class="card-img-top product-img" alt="911 GT3RS">
+<div class="card-body flex-grow-1">
+<h5 class="card-title lilita-one-regular">Porsche 911 Gt3Rs</h5>
+<p class="card-text ubuntu-regular">Porsche 911 GT3 RS Supercar Jerman dengan mesin flat‑6 4.0 L naturally aspirated, tenaga sekitar 518 hp, dirancang ekstrem untuk performa track.</p>
+</div>
+<div class="card-footer text-center">
+<small class="text-muted">Harga bekas: Rp8,5M</small>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="py-4 bg-light">
+<div class="container">
+<h2 class="text-center mb-4 ubuntu-bold" >Contact US</h2>
+<div class="row">
+<div class="col-md-6">
+<div class="h-100">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63439.69965607924!2d106.67987651638671!3d-6.39642031393847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e94c7eecd71f%3A0x482411c4e1d15ae8!2sBurger%20King%20Bojongsari!5e0!3m2!1sen!2sid!4v1754019506167!5m2!1sen!2sid" width="100%" height="100%" style="border:0;min-height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<div class="col-md-6">
+<form id="myForm">
+<div class="mb-3">
+<label for="exampleInoutEmail1" class="form-label">Name</label>
+<input type="text" name="nama" class="form-control" id="exampleFormControlInput1" placeholder="Input your name">
+</div>
+
+<div class="mb-3">
+<label for="exampleFormControlInput1" class="form-label">Email address</label>
+<input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+
+<div class="mb-3">
+<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+<textarea name="pesan" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+<div class="mb-3">
+<label for="exampleFormControlTextarea2" class="form-label">Keluhan (experiment xD)</label>
+<textarea name="keluhan" class="form-control" id="exampleFormControlTextarea2" rows="2"></textarea>
+</div>
+
+<button type="submit" class="btn btn-secondary">Send Message</button>
+<p id="status"></p>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+© 2025 Copyright:
+<a class="text-reset fw-bold" href="#">Rafael</a>
+</div>
+<!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<script>
+const form = document.getElementById('myForm');
+const status = document.getElementById('status');
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzAfAaonaiJ1HLED7Ml1vXv3wi6CK6yRsRqTaLbc9CX-4C4vJn2XDnvCkz2gC1DgPYm/exec'; // Ganti dengan URL milikmu
+
+form.addEventListener('submit', e => {
+e.preventDefault(); // 🔒 Cegah reload halaman
+status.innerText = "Mengirim...";
+
+const formData = new FormData(form);
+const params = new URLSearchParams(formData).toString();
+
+fetch(`${scriptURL}?${params}`)
+.then(res => {
+if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+return res.text();
+})
+.then(response => {
+status.innerText = "✅ Pesan berhasil dikirim!";
+form.reset(); // Kosongkan form setelah kirim
+})
+.catch(error => {
+status.innerText = "❌ Gagal mengirim: " + error.message;
+});
+});
+</script>
+</body>
+</html>

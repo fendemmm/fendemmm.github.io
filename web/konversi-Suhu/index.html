@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h1 style="text-align: center; color: #9193ff; text-shadow: 1px 1px 2px black">Konverter Suhu</h1>
+    <div id="masuk_suhu">
+    <h3 style="color: #1de5f0; text-shadow: 1px 1px 2px black;">Masukkan Suhu</h3>
+    <input type="number" id="suhu" placeholder="Masukkan suhu">
+    </div>
+    <br><br>
+    <div id="pilih_dari">
+    <label style="font-weight: bold; color:#6da391; text-shadow: 1px 1px 2px black;">Dari</label>
+    <select id="dari">
+      <option value="celcius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+    </div>
+    <br>
+    <div id="pilih_ke">
+    <label style="font-weight: bold; color:#6da391; text-shadow: 1px 1px 2px black">Ke</label>
+    <select id="ke">
+      <option value="celcius">Celcuis</option>
+      <option value="fahrenheit">Fahrenheit </option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+    </div>
+    <br><br>
+    <div id="konversi_suhu">
+    <button id="konversi" onclick="konversi_suhu()">Konversi</button>
+      <div id="hasil_suhu">
+  	<label>Hasil: </label>
+    <p id="hasil"></p>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

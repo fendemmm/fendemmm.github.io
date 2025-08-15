@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#masuk_suhu {
+text-align: center;
+margin-top: -5;
+}
+
+#pilih_dari {
+  text-align: center;
+  margin-top: -20px;
+}
+
+#pilih_ke {
+  text-align: center;
+}
+
+#konversi_suhu {
+  margin-left: 40%;
+}
+
+#hasil_suhu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+}
